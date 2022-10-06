@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/css/style2.css" rel="stylesheet">
+        <script src="https://use.fontawesome.com/23bfcd3c8e.js"></script>
+        <title>CV</title>
+    </head>
+    <body>
+    <!--Navigation bar-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <div id="nav-placeholder">
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+        <div class="resume">
+            <div class="resume_left">
+                <div class="resume_profile">
+                    <img src="/image/cv.JPG" alt="CV_profile_image">
+                </div>
+                <div class="resume_content">
+                    <div class="resume_item resume_info">
+                        <div class="title">
+                            <p class="bold">Xinyue Wang</p>
+                            <p class="regular">Software Engineer</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <!-- <div class="icon"><i class="fa-thin fa-location-dot" aria-hidden="true"></i></div> -->
+                                <div class="data">
+                                    Seattle, WA <br/> USA
+                                </div>
+                            </li>
+                            <li>
+                                <!-- <div class="icon"><i class="fa-regular fa-phone"></i></div> -->
+                                <div class="data">
+                                    +1 2069391087
+                                </div>
+                            </li>
+                            <li>
+                                <!-- <div class="icon"><i class="fa-thin fa-envelope"></i></div> -->
+                                <div class="data">
+                                    wang.xinyue2@northeastern.edu
+                                </div>
+                            </li>
+                            <li>
+                                <!-- <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div> -->
+                                <a href="https://www.linkedin.com/in/xinyue-wang-uw/" target="_blank" rel="noopener noreferrer" class="data">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/xyw07" target="_blank" rel="noopener noreferrer" class="data">Perosnal Public GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume_item resume_skills">
+                        <div class="title">
+                            <p class="bold">Skills</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="skill_name">
+                                    <p class="semi-bold"> Languages</p>
+                                    <p>Java, Python, Golang, C, Kotlin, SQL, PromQL, Scala, Ember, HTML, CSS, JS</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill_name">
+                                    <p class="semi-bold">Software</p>
+                                    <p>IntelliJ, Visual Studio Code, Git, Bash, Android Studio, Google Colab, JUnit, MySQL, SQLite, scikit-learn,
+                                        NumPy, TensorFlow, Keras, Wireshark, Prometheus, Grafana, Kubernetes</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill_name">
+                                    <p class="semi-bold"> Operating Systems</p>
+                                    <p>Unix / Linux, Mac OS</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+                
+
+            <div class="resume_right">
+                <div class="resume_item resume_about">
+                    <div class="title">
+                        <p class="bold">About Me</p>
+                    </div>
+                    <p style="padding-left: 40px;">
+                        I love explore new things. I am a quick learner and I love taking risks.
+                    </p>
+
+                </div>
+                <div class="resume_item resume_education">
+                    <div class="title">
+                        <p class="bold">Education</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="date">2020-2023(expected)</div>
+                            <div class="info">
+                                <p class="semi_bold">Northeastern University</p>
+                                <p class="italic"> Candidate of Master of Science in Computer Science</p>
+                                <ul>
+                                    <li>
+                                        Teaching Assistant for Data Structure, Algorithm & Application in Computer System
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="date">2019-2020</div>
+                            <div class="info">
+                                <p class="semi_bold">University of Washington</p>
+                                <p class="italic">Master of Science in Materials Science and Engineering</p>
+                                <ul>
+                                    <li>
+                                        Published 3 conference papers related to Machine Learning
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_item resume_work">
+                    <div class="title">
+                        <p class="bold">Work Experience</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="date">May 2022 - July 2022</div>
+                            <div class="info">
+                                <p class="semi_bold">Expedia Group, Inc.</p>
+                                <p class="italic">Software Engineer Intern</p>
+                                <ul>
+                                    <li>
+                                        Designed and implemented REST API endpoints with Scala and ScalaTest for the Expedia Activities application to clean up
+the old tickets and decreased 50% the processing time.
+                                    </li>
+                                    <li>
+                                        Created correct and efficient MySQL queries to extra from the Database and filtered out all unnecessary records.
+                                    </li>
+                                    <li>
+                                        Designed and built UI web page for Expedia Activities application front end using Ember.js
+                                    </li>
+                                    <li>Set up and documented the connection between UI and backend endpoints with configuration files.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="date">Jan 2022 - Apr 2022</div>
+                            <div class="info">
+                                <p class="semi_bold">Arista Networks, Inc.</p>
+                                <p class="italic">Software Engineer Intern</p>
+                                <ul>
+                                    <li>
+                                        Implemented product's core features: Semaphore in multithreaded Systems via Golang, which increased 30% speed in
+scalable testing and enhanced 50% sustainability.
+                                    </li>
+                                    <li>Measured and analyzed the performance and quality of this Semaphore feature based on 80 testing results via Prometheus
+                                        and Grafana to plot CPU, Mem, and Bandwidth Usage graph via PromQL.</li>
+                                    <li>Implemented customized flags and wrote Python to deploy tests automatically and fixed existing bugs and added logs.</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

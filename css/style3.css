@@ -1,0 +1,43 @@
+body {margin:0;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(237, 14%, 31%);
+    color: white; 
+}
+
+.hobby{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hobby .stats{
+    padding: 25px 0;
+}
+
+.hobby h1{
+    margin-bottom: 20px;
+}
+  
+table {
+border-collapse: collapse;
+width: 100%;
+border-style: hidden;
+}
+
+td{
+height: 40px;
+border-right: 3px solid black;
+}
+
+img{
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
